@@ -1,5 +1,5 @@
 # battery_analysis
-Analyzes battery data from NASA Li-ion battery dataset to create 6 graphs that together determine the largest contributing factor to battery life cycle degradation. 
+Analyzes battery data from NASA Li-ion battery dataset using Python to create 6 graphs that together determine the largest contributing factor to battery life cycle degradation. 
 
 Plot 1: Actual vs Predicted capacity
 
@@ -25,5 +25,7 @@ The x-axis is the total impedance (electrolite resistance and charge transfer re
 
 Plot 6: Feature importance:
 The strongest predictor for aging is ambient temperature, which is much higher than anything else. 
+
+To run it locally, Clone the repository, install dependencies with pip install -r requirements.txt, place metadata.csv in cleaned_dataset/data/, and run python battery_ml_analysis.py.
 
 This code can be used with other data with light alterations, allowing it to help classify and improve Li-ion batteries based on testing.
