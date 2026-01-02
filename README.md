@@ -26,3 +26,5 @@ The x-axis shows total impedance (electrolyte resistance and charge-transfer res
 Ambient temperature is the strongest predictor of battery aging, significantly outweighing the other features in the Gradient Boosting model.
 
 To run the code locally, clone the repository, install dependencies using `pip install -r requirements.txt`, place `metadata.csv` in `cleaned_dataset/data/`, and run:
+
+With minor changes, this code can be reused on other lithium-ion battery datasets to study degradation behavior and identify dominant aging factors.
