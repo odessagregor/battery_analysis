@@ -1,6 +1,8 @@
 # battery_analysis
 Analyzes battery data from NASA Li-ion battery dataset using Python to create 6 graphs that together determine the largest contributing factor to battery life cycle degradation. 
 
+![Battery ML Analysis](images/battery_ml_analysis.png)
+ 
 Plot 1: Actual vs Predicted capacity
 
 The x-axis measures the battery capacity, while the y axis measures what the capacity was predicted to be by our machine learning model
