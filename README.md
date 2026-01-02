@@ -1,5 +1,5 @@
 # battery_analysis
-Analyzes battery data from NASA battery data set to determine the largest contributing factor to battery life cycle degradation. 
+Analyzes battery data from NASA battery dataset to create 6 graphs that together determine the largest contributing factor to battery life cycle degradation. 
 Explanation:
 
 Actual vs Predicted capacity:
